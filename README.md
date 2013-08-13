@@ -1,6 +1,8 @@
 # DownedRainbow
 Syntax highlighting theme for Sublime|TextMate etc.
 
+http://www.geedew.com/2013/08/13/a-syntax-theme-that-serves-a-purpose/
+
 # Installation in SublimeText
 
 ## Download Manually
