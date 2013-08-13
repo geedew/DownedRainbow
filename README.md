@@ -1,7 +1,13 @@
 # DownedRainbow
-=============
-
 Syntax highlighting theme for Sublime|TextMate etc.
+
+# Installation in SublimeText
+
+## Download Manually
+
+* Download the files using the GitHub .zip download option
+* Find your `Packages` directory using the menu item  `Preferences -> Browse Packages...`
+* Copy the DownedRainbow.tmTheme into your Sublime Text `Packages/Color Scheme - Default` directory
 
 # Features
  - LessCSS, CoffeeScript, AngularJS, Mustache templating special tags
@@ -32,7 +38,7 @@ Syntax highlighting theme for Sublime|TextMate etc.
 (The MIT License)
 
 DownedRainbow.tmTheme
-Copyright (c) 2013 Drew Wison <drew@geedew.com>
+Copyright (c) 2013 Drew Wilson <drew@geedew.com>
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the
