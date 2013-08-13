@@ -1,0 +1,45 @@
+@import "../IGNORE/global.less";
+
+// ***** READ THIS ****** //
+// DO NOT USE "/* */" IN THIS FILE. USE "//" INSTEAD.
+// REASON BEING THAT /* */ COMMENTS ARE PRESERVED WHEN LESSC PROCESSES CSS FILES, WHILE "//" COMMENTS ARE NOT.
+
+.sprite() {
+  background-image: url("@{sprite-url}");
+}
+
+// Easter egg 8bit
+@8bitsprite-url: "@{cdnDomain}/8bit.png";
+.8bitsprite() {
+  background-image: url("@{8bitsprite-url}");
+}
+
+.bg-image(@img: 'logo.png', @color: #000, @repeat: no-repeat, @position: ~"", @scroll: scroll) {
+  background: url('@{cdnDomain}/@{img}') @color @repeat @position @scroll;
+}
+
+@base-color: #fff;
+@default-link: #1d67a7;
+@band-gray: #232323;
+
+/* A comment with style */
+.messages {
+	min-height : 0 !important;
+	background-color: #F1F1F1;
+	.box-shadow(0, 1px, 0, rgba(255,255,255,0.7), inset~',', 0, 1px, 0, rgba(255,255,255,0.7));
+
+	.action-complete .message-text { .opacity(0.4); }
+
+	> section {
+		padding: 10px 0;
+
+		&:first-child {
+			padding-top: 0;
+			.border-radius(5px);
+		}
+	}
+
+	&.omsg .dismissed, &.omsg .action-complete, &.omsg .item-replied, &.omsg .item-tasked {
+		> aside img, > aside .message-type-icon, .message-text {.opacity(1);}
+	}
+}
