@@ -12,7 +12,13 @@ http://www.geedew.com/2013/08/13/a-syntax-theme-that-serves-a-purpose/
 * Copy the DownedRainbow.tmTheme into your Sublime Text `Packages/Color Scheme - Default` directory
 
 # Features
- - LessCSS, CoffeeScript, AngularJS, Mustache templating special tags
+ - Special Language Support
+ 	- LessCSS 
+ 	- CoffeeScript
+ 	- AngularJS
+ 	- Mustache templating
+ 	- SublimeLinter
+ 	- GitGutter
  - Looks good in most, if not all langauges
  - Diff tag support
 
