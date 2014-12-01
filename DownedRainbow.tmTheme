@@ -2,6 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 	<dict>
+		<key>author</key>
+		<string>Drew Wilson &lt;@geedew&gt;</string>
+		<key>comment</key>
+		<string> The idea here is to make the things that matter stand out. https://github.com/geedew/DownedRainbow. Heavily opinionated to cause strings and comments to stand out as much as possible for better readability.</string>
 		<key>name</key>
 		<string>DownedRainbow</string>
 		<key>settings</key>
@@ -46,6 +50,18 @@
 					<string>#95c4e3</string>
 					<key>background</key>
 					<string>#3b3b3b</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>Punctuation</string>
+				<key>scope</key>
+				<string>punctuation - (punctuation.definition.string | punctuation.definition.comment)</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FFFEF7</string>
 				</dict>
 			</dict>
 			<dict>
@@ -712,6 +728,311 @@
 			</dict>
 			<dict>
 				<key>name</key>
+				<string>YAML numeric key</string>
+				<key>scope</key>
+				<string>constant.numeric.key</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+					<key>foreground</key>
+					<string>#00B000</string>
+					<key>background</key>
+					<string>#00161B</string>	
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>YAML string</string>
+				<key>scope</key>
+				<string>source.yaml string</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+					<key>foreground</key>
+					<string>#00B000</string>
+					<key>background</key>
+					<string>#00161B</string>	
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>YAML-tmLanguage support.type</string>
+				<key>scope</key>
+				<string>source.yaml-tmlanguage support.type</string>
+				<key>settings</key>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+					<key>foreground</key>
+					<string>#F57C0E</string>
+					<key>background</key>
+					<string>#00161B</string>	
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>YAML-tmLanguage match</string>
+				<key>scope</key>
+				<string>source.yaml-tmlanguage keyword.other.match</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FF00FF</string>
+					<key>background</key>
+					<string>#00161B</string>		
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>YAML-tmLanguage name</string>
+				<key>scope</key>
+				<string>source.yaml-tmlanguage keyword.other.name</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#0BFF02</string>
+					<key>background</key>
+					<string>#00161B</string>	
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>YAML-tmLanguage folding-marker</string>
+				<key>scope</key>
+				<string>source.yaml-tmlanguge meta.folding-marker keyword.other.folding-marker</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#23FFB0</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>=========== JSON ==========</string>
+				<key>scope</key>
+				<string></string>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#00161B</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
+				<string>JSON string</string>
+				<key>scope</key>
+				<string>source.json string</string>
+				<key>settings</key>
+				<dict>
+					<key>background</key>
+					<string>#00161B</string>	
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSON - 18 deep</string>
+				<key>scope</key>
+				<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#F50AFF</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSON - 17 deep</string>
+				<key>scope</key>
+				<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#ACFF04</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSON - 16 deep</string>
+				<key>scope</key>
+				<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#18FFFA</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSON - 15 deep</string>
+				<key>scope</key>
+				<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FF5A60</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSON - 14 deep</string>
+				<key>scope</key>
+				<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#1471FF</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSON - 13 deep</string>
+				<key>scope</key>
+				<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FF8D04</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSON - 12 deep</string>
+				<key>scope</key>
+				<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#22FF31</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSON - 11 deep</string>
+				<key>scope</key>
+				<string>source.json meta meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#A9BAFF</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSON - 10 deep</string>
+				<key>scope</key>
+				<string>source.json meta meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FF0C77</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSON - 9 deep</string>
+				<key>scope</key>
+				<string>source.json meta meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FFFA02</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSON - 8 deep</string>
+				<key>scope</key>
+				<string>source.json meta meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#F50AFF</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSON - 7 deep</string>
+				<key>scope</key>
+				<string>source.json meta meta meta meta meta meta meta meta.structure.dictionary string</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#ACFF04</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSON - 6 deep</string>
+				<key>scope</key>
+				<string>source.json meta meta meta meta meta meta meta.structure.dictionary string</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#18FFFA</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSON - 5 deep</string>
+				<key>scope</key>
+				<string>source.json meta meta meta meta meta meta.structure.dictionary string</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FF5A60</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSON - 4 deep</string>
+				<key>scope</key>
+				<string>source.json meta meta meta meta meta.structure.dictionary string</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#1471FF</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSON - 3 deep</string>
+				<key>scope</key>
+				<string>source.json meta meta meta meta.structure.dictionary string</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FF8D04</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSON - 2 deep</string>
+				<key>scope</key>
+				<string>source.json meta meta meta.structure.dictionary string</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#22FF31</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>JSON - 1 deep</string>
+				<key>scope</key>
+				<string>source.json meta meta.structure.dictionary string</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#FF82EC</string>
+				</dict>
+			</dict>
+
+			<dict>
+				<key>name</key>
 				<string>SublimeLinter Gutter Mark</string>
 				<key>scope</key>
 				<string>sublimelinter.gutter-mark</string>
@@ -805,9 +1126,5 @@
 		<string>sRGB</string>
 		<key>semanticClass</key>
 		<string>theme.dark.downed_rainbow</string>
-		<key>author</key>
-		<string>Drew Wilson &lt;@geedew&gt;</string>
-		<key>comment</key>
-		<string> The idea here is to make the things that matter stand out. It's consistently being tweaked. The biggest worry is getting too much mess, making hard to read code.</string>
 	</dict>
 </plist>
